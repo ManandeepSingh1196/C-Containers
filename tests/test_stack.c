@@ -212,7 +212,7 @@ static void test_push_pop_cycles(void)
     printf("[PASS] test_push_pop_cycles\n");
 }
 
-int main(void)
+void run_stack_tests(void)
 {
     test_init();
 
@@ -236,7 +236,5 @@ int main(void)
 
     printf("\nALL TESTS PASSED\n");
 
-    return 0;
+    return;
 }
-```
-

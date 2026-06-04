@@ -1,5 +1,3 @@
-// test_linked_list.c
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -133,7 +131,7 @@ static void test_destroy() {
   printf("[PASS] test_destroy\n");
 }
 
-int main(void) {
+void run_linked_list_tests(void) {
   test_init_list();
   test_insert_beginning();
   test_insert_end();
@@ -143,5 +141,5 @@ int main(void) {
 
   printf("\nALL TESTS PASSED\n");
 
-  return 0;
+  return;
 }

@@ -234,7 +234,7 @@ static void test_pop_empty(void)
     printf("[PASS] test_pop_empty\n");
 }
 
-int main(void)
+void run_vector_tests(void)
 {
     test_init_empty();
     test_init_array();
@@ -252,15 +252,11 @@ int main(void)
     test_replace();
 
     test_reserve();
-
-    // expected to fail until reserve() is fixed
     test_reserve_preserves_data();
 
     test_large_push();
 
     printf("\nALL TESTS PASSED\n");
 
-    return 0;
+    return;
 }
-```
-

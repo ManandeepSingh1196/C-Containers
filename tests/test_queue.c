@@ -293,7 +293,7 @@ static void test_compact_then_enqueue(void)
     printf("[PASS] test_compact_then_enqueue\n");
 }
 
-int main(void)
+void run_queue_tests(void)
 {
     test_init();
 
@@ -323,7 +323,5 @@ int main(void)
 
     printf("\nALL TESTS PASSED\n");
 
-    return 0;
+    return;
 }
-```
-
