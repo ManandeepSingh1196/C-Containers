@@ -71,8 +71,8 @@ The goal is to produce code that I can come back to six months later and still u
 ## Project Structure
 
 ```text
-include/
-├── dynamic_array.h
+src/
+├── vector.h
 ├── linked_list.h
 ├── stack.h
 ├── queue.h
